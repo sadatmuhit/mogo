@@ -1,0 +1,235 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*header start*/
+    .menubar ul li a {
+        margin: 4px 0;
+    }
+    .menubar ul li a:hover,
+    .menubar ul li .active {
+        border-bottom: 1px solid transparent;
+    }
+    .navbg {
+        padding: 15px;
+    }
+    /*header end*/
+    /*banner start*/
+    .b_content h2 {
+        font-size: 26px
+    }
+    .b_content h1 {
+        font-size: 30px;
+    }
+    .b_single {
+        display: none;
+    }
+    /*banner end*/
+    /*about start*/
+    #about {
+        padding: 50px 0;
+    }
+    .short {
+        font-size: 22px;
+    }
+    .main_title {
+        font-size: 24px;
+    }
+    .ab_single {
+        margin-top: 30px;
+    }
+    /*about end*/
+    /*success start*/
+    #success {
+        padding: 10px 0 30px;
+    }
+    .sc_single {
+        margin-top: 20px;
+    }
+    .sc_single span {
+        font-size: 30px;
+    }
+    /*success end*/
+    /*service start*/
+    #service {
+        padding: 50px 0;
+    }
+    .sv_single {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .sv_single i {
+        margin-bottom: 16px;
+    }
+    /*service end*/
+    /*work start*/
+    #work {
+        padding-bottom: 50px;
+    }
+    .w_single {
+        margin-top: 30px;
+    }
+    /*work end*/
+    /*team start*/
+    #team {
+        padding-bottom: 50px;
+    }
+    .t_single {
+        margin-top: 30px;
+    }
+    /*team end*/
+    /*portfolio start*/
+    #portfolio {
+        padding-bottom: 50px;
+    }
+    .p_single {
+        margin-top: 30px;
+    }
+    /*portfolio end*/
+    /*review start*/
+    #review {
+        padding-bottom: 50px;
+    }
+    .r_single {
+        margin-top: 30px;
+    }
+    .rsub_single {
+        margin-top: 16px;
+    }
+    /*review end*/
+    /*blog start*/
+    #blog {
+        padding-bottom: 50px;
+    }
+    .bl_single {
+        margin-top: 30px;
+    }
+    /*blog end*/
+    .bck {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*header start*/
+    .menubar ul li a {
+        margin: 4px 0;
+    }
+    .menubar ul li a:hover,
+    .menubar ul li .active {
+        border-bottom: 1px solid transparent;
+    }
+    /*header end*/
+    /*banner start*/
+    .b_content h2 {
+        font-size: 30px;
+    }
+    .b_content h1 {
+        font-size: 40px;
+    }
+    .b_single {
+        display: none;
+    }
+    /*banner end*/
+    /*about start*/
+    #about {
+        padding: 60px 0;
+    }
+    /*about end*/
+    /*success start*/
+    #success {
+        padding: 10px 0 30px;
+    }
+    .sc_single {
+        margin-top: 20px;
+    }
+    .sc_single span {
+        font-size: 30px;
+    }
+    /*success end*/
+    /*service start*/
+    #service {
+        padding: 60px 0;
+    }
+    .sv_single {
+        text-align: center;
+    }
+    .sv_single i {
+        margin-bottom: 16px;
+    }
+    /*service end*/
+    /*work start*/
+    #work {
+        padding-bottom: 60px;
+    }
+    /*work end*/
+    /*team start*/
+    #team {
+        padding-bottom: 60px;
+    }
+    .t_single {
+        margin-top: 30px;
+    }
+    /*team end*/
+    /*portfolio start*/
+    #portfolio {
+        padding-bottom: 60px;
+    }
+    .p_single {
+        margin-top: 30px;
+    }
+    /*portfolio end*/
+    /*review start*/
+    #review {
+        padding-bottom: 60px;
+    }
+    .r_single {
+        margin-top: 40px;
+    }
+    /*review end*/
+    /*blog start*/
+    #blog {
+        padding-bottom: 60px;
+    }
+    .bl_single {
+        margin-top: 30px;
+    }
+    /*blog end*/
+    .bck {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*header start*/
+    .menubar ul li a {
+        margin: 4px 0;
+    }
+    .menubar ul li a:hover,
+    .menubar ul li .active {
+        border-bottom: 1px solid transparent;
+    }
+    /*header end*/
+    /*banner start*/
+    .b_content h1 {
+        font-size: 45px;
+    }
+    /*banner end*/
+    /*service start*/
+    .sv_single {
+        text-align: center;
+    }
+    .sv_single i {
+        margin-bottom: 16px;
+    }
+    /*service end*/
+    .bl_overlay {
+        min-width: 60px;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

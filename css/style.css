@@ -1,0 +1,334 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+}
+/*header start*/
+header {
+    padding-top: 15px;
+    background: linear-gradient(rgba(242, 80, 93, 0.2), rgba(3, 136, 166, 0.2)), url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#main_nav {
+    z-index: 1030;
+}
+.navbg {
+    background: #333;
+    padding: 15px 0;
+    transition: 0.4s linear;
+}
+.menubar ul li a {
+    color: #fff !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 !important;
+    margin: 0 15px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s ease;
+}
+.menubar ul li a:hover,
+.menubar ul li .active {
+    color: #f2505d !important;
+    border-bottom: 1px solid #f2505d;
+}
+.menubar ul li:last-child a {
+    margin-right: 0px;
+}
+/*header end*/
+/*banner start*/
+#banner {
+    padding: 120px 0 50px;
+}
+.b_content {
+    color: #fff;
+    text-align: center;
+}
+.b_content h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.b_content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.b_content hr {
+    width: 70px;
+    height: 1px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.b_content a {
+    color: #fff;
+    font-weight: 700;
+    border-color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+.b_content a:hover {
+    color: #fff;
+    background: #f2505d;
+    border-color: #f2505d;
+}
+.b_single {
+    margin-top: 120px;
+    cursor: pointer;
+}
+.b_single a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+}
+.b_single hr {
+    background: #fff;
+    height: 2px;
+}
+.b_single:hover a {
+    color: rgba(255, 255, 255, 1);
+}
+.b_single:hover hr {
+    background: #f2505d;
+}
+/*banner end*/
+/*about start*/
+#about {
+    padding: 100px 0;
+    text-align: center;
+}
+.short {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+}
+.main_title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+.cmn_hr {
+    width: 70px;
+    height: 1px;
+    background: #f2505d;
+}
+.ab_single {
+    position: relative;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.ab_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(242, 80, 93, 0.7), rgba(3, 136, 166, 0.7));
+    transform: scale(0);
+    transition: 0.3s ease;
+}
+.ol_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ol_item i {
+    font-size: 18px;
+    color: #fff;
+}
+.ol_item p {
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+.ab_single:hover .ab_overlay {
+    transform: scale(1);
+}
+/*about end*/
+/*success start*/
+#success {
+    padding: 50px 0;
+    background: #0388a6;
+}
+.sc_single {
+    color: #fff;
+    text-align: center;
+}
+.sc_single span {
+    font-size: 40px;
+    font-weight: 700;
+}
+.sc_single p {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+/*success end*/
+/*service start*/
+#service {
+    padding: 100px 0;
+}
+.sv_single {
+    margin-top: 50px;
+}
+.sv_single i {
+    font-size: 35px;
+    color: #0388a6;
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+/*service end*/
+/*work start*/
+#work {
+    padding-bottom: 100px;
+}
+.w_single {
+    margin-top: 50px;
+}
+.w_single i {
+    color: #0388a6;
+    margin-right: 10px;
+}
+.w_single button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+}
+.w_single button:hover {
+    color: #0388a6;
+    text-decoration: none;
+}
+.w_single button:focus {
+    box-shadow: none;
+}
+/*work end*/
+/*team start*/
+#team {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.t_single {
+    margin-top: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.t_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(242, 80, 93, 0.5), rgba(3, 136, 166, 0.5));
+    transform: scale(0);
+    transition: 0.3s ease;
+}
+.to_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.to_item i {
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 10px;
+    margin: 0 2px;
+    background: #f2505d;
+    transition: 0.3s ease;
+}
+.to_item i:hover {
+    color: #f2505d;
+    background: #fff;
+}
+.t_single:hover .t_overlay {
+    transform: scale(1);
+}
+.t_text {
+    margin-top: 16px;
+}
+/*team end*/
+/*portfolio start*/
+#portfolio {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.p_single {
+    margin-top: 50px;
+}
+/*portfolio end*/
+/*review start*/
+#review {
+    padding-bottom: 100px;
+}
+.r_single {
+    margin-top: 60px;
+}
+/*review end*/
+/*blog start*/
+#blog {
+    padding-bottom: 100px;
+}
+.bl_single {
+    position: relative;
+    margin-top: 50px;
+}
+.bl_single img {
+    margin-bottom: 16px;
+}
+.bl_overlay {
+    color: #fff;
+    text-align: center;
+    background: #0388a6;
+    min-width: 80px;
+    min-height: 80px;
+    position: absolute;
+    bottom: 50%;
+    left: -4%;
+}
+.bl_overlay span {
+    font-size: 25px;
+    font-weight: 700;
+}
+/*blog end*/
+/*footer start*/
+footer {
+    color: #fff;
+    padding: 50px 0;
+    background: #333;
+}
+.f_single i {
+    margin-right: 15px;
+}
+.f_single ul li a i {
+    color: #fff;
+    padding: 8px 10px;
+    margin: 0;
+    background: #0388a6;
+    transition: 0.3s ease;
+}
+.f_single ul li a i:hover {
+    color: #0388a6;
+    background: #fff;
+}
+/*footer end*/
+.bck {
+    color: #fff;
+    background: #f2505d;
+    transition: 0.4s ease;
+}
+.bck:hover {
+    color: #f2505d;
+    border: 1px solid #f2505d;
+    background: transparent;
+}
